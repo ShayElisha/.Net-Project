@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BackAdmin.master.cs" Inherits="web09052024.AdminMenage.BackAdmin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    
+   <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>SB Admin 2 - Bootstrap Admin Theme</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="css/rtl/bootstrap.min.css" rel="stylesheet">
+
+<!-- not use this in ltr -->
+<link href="css/rtl/bootstrap.rtl.css" rel="stylesheet">
+
+<!-- MetisMenu CSS -->
+<link href="css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+<!-- Timeline CSS -->
+<link href="css/plugins/timeline.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="css/rtl/sb-admin-2.css" rel="stylesheet">
+
+<!-- Morris Charts CSS -->
+<link href="css/plugins/morris.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+   
+        <div>
+    <asp:ContentPlaceHolder ID="MainCnt" runat="server">
+    </asp:ContentPlaceHolder>
+</div>
+    <div>
+    <asp:ContentPlaceHolder ID="FooterCnt" runat="server">
+    </asp:ContentPlaceHolder>
+</div>
+    <div>
+    <asp:ContentPlaceHolder ID="UnderFooterCnt" runat="server">
+    </asp:ContentPlaceHolder>
+              
+    <script src="js/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Metis Menu Plugin JavaScript -->
+<script src="js/metisMenu/metisMenu.min.js"></script>
+
+<!-- Morris Charts JavaScript -->
+<script src="js/raphael/raphael.min.js"></script>
+<script src="js/morris/morris.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="js/sb-admin-2.js"></script>
+</body>
+</html>
